@@ -1,0 +1,289 @@
+ /* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f4f4f9;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+#home {
+    height: 100vh;
+    background: linear-gradient(to right,  #D2B48C,#000000 );
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero-content .btn {
+    background: #fff;
+    color: #D2B48C;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.hero-content .btn:hover {
+    background: #2575fc;
+    color: #fff;
+}
+
+/* About Section */
+#about {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #D2B48C;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#about {
+    padding: 1rem 1rem;
+    background: #fff;
+    text-align: center;
+}
+    
+#about {
+    background: #444;
+    color: white;
+    text-align: center;
+    padding: 40px 10px;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-content img {
+    max-width: 150px;
+    border-radius: 20%;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+ /*bar graph */
+#skills {
+    padding: 2rem;
+    background: #fff;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.bar-graph {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.bar {
+    margin-bottom: 1.5rem;
+}
+
+.bar span {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.progress {
+    height: 30px;
+    border-radius: 5px;
+}
+
+/* Portfolio Section */
+#work {
+    padding: 4rem 2rem;
+    background: #f4f4f9;
+    text-align: center;
+}
+
+#work h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-item h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.portfolio-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Contact Section */
+#contact {
+    padding: 4rem 2rem;
+    background: #fff;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form input, form textarea {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #2575fc;
+    color: #fff;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #6a11cb;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+/* Contact Section */
+#contact {
+    padding: 4rem 2rem;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.contact-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0.5rem;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.contact-item:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.contact-item span {
+    font-weight: bold;
+    display: block;
+    margin-top: 0.5rem;
+}
